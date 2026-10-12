@@ -1,47 +1,34 @@
 #include <stdio.h>
 
-int main()
-{
-    int num, originalNum, remainder;
-    int digits = 0;
+int main() {
+    int num, og_num, rem;
+    int n = 0;
     int sum = 0;
 
+    printf("Amstrong Number Program \n");
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    originalNum = num;
-
-    // Count the number of digits
-    while (originalNum != 0)
-    {
-        originalNum /= 10;
-        digits++;
+    og_num = num;
+    while (og_num != 0) {
+        og_num = og_num / 10;
+        n++;
     }
 
-    originalNum = num;
-
-    // Calculate the Armstrong sum
-    while (originalNum != 0)
-    {
-        remainder = originalNum % 10;
-
+    og_num = num;
+    while (og_num != 0) {
+        rem = og_num % 10;
         int power = 1;
-
-        for (int i = 0; i < digits; i++)
-        {
-            power *= remainder;
+        for (int i = 0; i < digits; i++) {
+            power = power * rem;
         }
-
-        sum += power;
-        originalNum /= 10;
+        sum = sum + power;
+        og_num = og_num / 10;
     }
 
-    if (sum == num)
-    {
+    if (sum == num) {
         printf("%d is an Armstrong Number.\n", num);
-    }
-    else
-    {
+    } else {
         printf("%d is not an Armstrong Number.\n", num);
     }
 
