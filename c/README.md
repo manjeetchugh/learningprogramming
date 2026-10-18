@@ -10,6 +10,7 @@ This folder contains C programs created while learning and practicing the fundam
 - Programming practice
 - Code to understand C syntax and concepts
 - Hands-on learning exercises
+- [A juicy cheatsheet](cheatsheet.md)   
 
 ## 🛠️ Requirements
 
