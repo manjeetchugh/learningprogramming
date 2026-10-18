@@ -25,7 +25,3 @@ The purpose of this folder is to build a strong foundation in C programming thro
 This repository will continue to grow as I learn new concepts, solve problems, and improve my programming skills.
 
 Happy Coding! 💻
-
-```
-
-```
