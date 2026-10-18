@@ -1,1 +1,37 @@
-## Planned for some time ahead in future
+## C Language Cheatsheet
+ > The points where there are clickable pockets of text. These are OPTIONAL from an exam Point of View.
+### History of C and yadayada..
+- C is a general-purpose, mid-level programming language.
+- Developed by Dennis M. Ritchie in 1972 at Bell Laboratories.
+- Initially created for developing the UNIX operating system.
+
+<details>
+  <summary>OPTIONAL[some more boring facts]</summary>
+  
+ - Known for its speed, efficiency, and flexibility.
+ - Used in operating systems, embedded systems, and compilers.
+ - Supports structured programming.
+ - Provides pointers and direct memory access.
+ - Portable across different platforms.
+ - Influenced languages like C++, Java, and C#.
+ - Widely used for system programming and application development.
+
+</details>
+
+## Cutting the crap 
+```
+ #include <stdio.h>
+int main()
+{
+    printf("Hello World");
+    return 0;  
+}
+```
+Soooo! What's this code
+
+Lemme explain that easily
+
+But first the very _obvious_ output 
+```
+Hello World
+```
