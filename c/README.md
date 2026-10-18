@@ -1,7 +1,7 @@
 # C Programming 
 
 Welcome to the **C Programming** section of my learning repository! 👋
->  I have, as a matter of habit, been accustomed to compiling such notes, cheatsheets, and codes solely for my own use, having little inclination to make a public affair of what I devise for my personal convenience. However, should I have elected to place these materials at your disposal, you may rest assured that the act was by no means arbitrary. I am given to one of two conclusions: either I hold you in a degree of esteem not commonly bestowed, or you have exhibited such genuine curiosity and aptitude for the acquisition of knowledge as to warrant my taking you under my instruction. I am not, I assure you, in the habit of imparting such things to persons of no particular merit.”
+> I have, as a matter of habit, been accustomed to compiling such notes, cheatsheets, and codes solely for my own use, having little inclination to share them without good reason. Should I, however, choose to make these materials available to you, you may rest assured that the act was by no means arbitrary. Either I consider you a person of some consequence, or you have demonstrated genuine curiosity and a particular aptitude for learning that merits my attention. I do not part with the fruits of my own efforts indiscriminately, nor do I make a habit of imparting them to persons of no merit; I trust you shall appreciate the distinction. 
 
 This folder contains C programs created while learning and practicing the fundamentals of the C programming language.
 
