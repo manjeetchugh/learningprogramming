@@ -20,8 +20,8 @@
 
 ## Cutting the crap 
 ```
- #include <stdio.h>
-int main()
+ #include <stdio.h> 
+int main() 
 {
     printf("Hello World");
     return 0;  
@@ -35,3 +35,15 @@ But first the very _obvious_ output
 ```
 Hello World
 ```
+#### Head(Header)
+<table width="100%">
+  <tr>
+    <td valign="top">
+      <pre><code>#include &lt;stdio.h&gt;</code></pre>
+      <p>Think of it like as your head</p>
+    </td>
+    <td align="right" valign="top">
+      <img width="200" alt="header" src="https://github.com/user-attachments/assets/ebb59e54-9b99-48c2-9f82-2d38430a7e88" />
+    </td>
+  </tr>
+</table>
