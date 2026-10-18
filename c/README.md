@@ -1,6 +1,7 @@
 # C Programming 
 
 Welcome to the **C Programming** section of my learning repository! 👋
+> Now normally i make these cheatsheet and/or codes for myself(and only myself), If i have shared this with you i consider you of some importance or you have shown some genuine interest or skill to learn. 
 
 This folder contains C programs created while learning and practicing the fundamentals of the C programming language.
 
