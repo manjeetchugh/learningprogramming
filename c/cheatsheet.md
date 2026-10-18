@@ -40,7 +40,7 @@ Hello World
   <tr>
     <td valign="top">
       <pre><code>#include &lt;stdio.h&gt;</code></pre>
-      <p>Think of it like as your head</p>
+      <p>It Assembles all the Avengers</p>
     </td>
     <td align="right" valign="top">
       <img width="200" alt="header" src="https://github.com/user-attachments/assets/ebb59e54-9b99-48c2-9f82-2d38430a7e88" />
