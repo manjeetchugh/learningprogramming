@@ -16,9 +16,15 @@ This folder contains C programs created while learning and practicing the fundam
 - A C compiler, such as GCC
 - A code editor, such as Visual Studio Code
 
-## 🎯 Purpose
-
-The purpose of this folder is to build a strong foundation in C programming through consistent practice and hands-on coding.
+## Note
+-Header files in C are stored under the extension .h For eg:
+```
+ never_gonna_give_you_up.h
+```
+-Source Code  files in C are stored under the extension .c For eg:
+```
+ never_gonna_let_you_down.c
+```
 
 ## 📈 Learning in Progress
 
