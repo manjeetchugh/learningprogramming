@@ -36,14 +36,17 @@ But first the very _obvious_ output
 Hello World
 ```
 #### Head(Header)
-<table width="100%">
-  <tr>
-    <td valign="top">
-      <pre><code>#include &lt;stdio.h&gt;</code></pre>
-      <p>It Assembles all the Avengers</p>
-    </td>
-    <td align="right" valign="top">
-      <img width="200" alt="header" src="https://github.com/user-attachments/assets/ebb59e54-9b99-48c2-9f82-2d38430a7e88" />
-    </td>
-  </tr>
-</table>
+<div style="display: flex; gap: 20px; align-items: flex-start;">
+  <div style="flex: 1;">
+    <pre><code>#include &lt;stdio.h&gt;</code></pre>
+    <p>It Assembles all the Avengers</p>
+  </div>
+  <div style="flex-shrink: 0;">
+    <img width="200" alt="header" src="https://github.com/user-attachments/assets/ebb59e54-9b99-48c2-9f82-2d38430a7e88" />
+  </div>
+</div>
+
+<div style="margin-top: 20px;">
+  <img width="671" height="372" alt="b3qvn5" src="https://github.com/user-attachments/assets/e4f5bfb2-8d33-43f5-ba95-9014214b01eb" />
+</div>
+
