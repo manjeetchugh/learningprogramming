@@ -104,7 +104,7 @@ Here we call the math.h library because we needed the sqrt() function</p>
     <td valign="top" width="60%" rowspan="2" style="padding-right: 20px;">
       <p> <code>main()</code> is the compulsory function that has to be defined in which the code is run
       <pre><code>
-       #include &lt;stdio.h&gt;
+#include &lt;stdio.h&gt;
 #include &lt;math.h&gt;
 
 int main() {
@@ -120,6 +120,15 @@ int main() {
     </td>
   </tr>
 </table>
+
+## Some General Functions
+- ```printf()```prints the given string or a variable when specified by a format specifier(%d is for int; More about this in the cheatsheet)
+  
+For eg:```printf("Your age is %d",age);```
+- ```scanf()```scans for input value from the user (*Requires the use of pointer &)
+  
+For eg:```scanf("%d",&age);```
+
 ## 📈 Learning in Progress
 
 This repository will continue to grow as I learn new concepts, solve problems, and improve my programming skills.
