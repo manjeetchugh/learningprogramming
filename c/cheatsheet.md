@@ -66,6 +66,4 @@ Here we call the math.h library because we needed the sqrt() function</p>
   </tr>
 </table>
 
-
-</div>
-
+### Main
