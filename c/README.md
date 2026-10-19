@@ -27,7 +27,6 @@ This folder contains C programs created while learning and practicing the fundam
 ```
  never_gonna_let_you_down.c
 ```
-> The points where there are clickable pockets of text. These are OPTIONAL from an exam Point of View.
 ### History of C and yadayada..
 - C is a general-purpose, mid-level programming language.
 - Developed by Dennis M. Ritchie in 1972 at Bell Laboratories.
