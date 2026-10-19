@@ -197,7 +197,7 @@ float value = 3.14;
 char character = 'a';
 
 
-</details>
-```
 
+```
+</details>
 # Now that you have learnt syntax of C, Check out [this juicy cheatsheet](cheatsheet.md)
