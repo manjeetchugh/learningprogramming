@@ -102,20 +102,32 @@ Here we call the math.h library because we needed the sqrt() function</p>
 <table width="100%">
   <tr>
     <td valign="top" width="60%" rowspan="2" style="padding-right: 20px;">
-      <p> <code>main()</code> is the compulsory function that has to be defined in which the code is run </p>
+      <p> <code>main()</code> is the compulsory function that has to be defined in which the code is run
+      <pre><code>
+       #include &lt;stdio.h&gt;
+#include &lt;math.h&gt;
+
+int main() {
+ Here goes the real code 
+ Hint:You start by defining the variables (int x;)
+}
+      </code></pre>
+      </pre>
+  </p>
   <tr>
     <td align="right" valign="top" width="40%">
       <img width="100%" height="auto" alt="b3qvn5" src="https://github.com/user-attachments/assets/11d58934-11e4-4c0d-b2ad-d8b66f102048" />
     </td>
   </tr>
 </table>
-<img
-  width="70%"
-  alt="Footer"
-  src="https://github.com/user-attachments/assets/00ef04cb-3e5c-4b6d-be10-ca6885d60f9c"/>
-
 ## 📈 Learning in Progress
 
 This repository will continue to grow as I learn new concepts, solve problems, and improve my programming skills.
 
 Happy Coding! 🍻
+<br>
+<img
+  width="70%"
+  alt="Footer"
+  src="https://github.com/user-attachments/assets/00ef04cb-3e5c-4b6d-be10-ca6885d60f9c"/>
+
