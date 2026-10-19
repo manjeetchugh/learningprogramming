@@ -59,7 +59,7 @@ return 0;
 | `>=` | Comparison | Greater than or equal to | `if (a >= b)` |
 | `<=` | Comparison | Less than or equal to | `if (a <= b)` |
 | `&&` | Logical | Logical AND | `if (age >= 18 && age <= 60)` |
-| `||` | Logical | Logical OR | `if (a > 5 \|\| b > 5)` |
+| `\|\|` | Logical | Logical OR | `if (a > 5 \|\| b > 5)` |
 | `!` | Logical | Logical NOT | `if (!(a == b))` |
 
 
