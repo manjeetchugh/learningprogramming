@@ -61,6 +61,12 @@ return 0;
 | `&&` | Logical | Logical AND | `if (age >= 18 && age <= 60)` |
 | `\|\|` | Logical | Logical OR | `if (a > 5 \|\| b > 5)` |
 | `!` | Logical | Logical NOT | `if (!(a == b))` |
+| `&` | Bitwise | Bitwise AND | `result = a & b;` |
+| `\|` | Bitwise | Bitwise OR | `result = a \| b;` |
+| `^` | Bitwise | Bitwise XOR | `result = a ^ b;` |
+| `~` | Bitwise | Bitwise NOT (Complement) | `result = ~a;` |
+| `<<` | Bitwise | Left Shift | `result = a << 2;` |
+| `>>` | Bitwise | Right Shift | `result = a >> 2;` |
 
 
 # Now that you have learnt syntax of C, Check out [this juicy cheatsheet](cheatsheet.md)
