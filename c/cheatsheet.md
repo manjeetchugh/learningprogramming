@@ -36,17 +36,36 @@ But first the very _obvious_ output
 Hello World
 ```
 #### Head(Header)
-<div style="display: flex; gap: 20px; align-items: flex-start;">
-  <div style="flex: 1;">
-    <pre><code>#include &lt;stdio.h&gt;</code></pre>
-    <p>It Assembles all the Avengers</p>
-  </div>
-  <div style="flex-shrink: 0;">
-    <img width="200" alt="header" src="https://github.com/user-attachments/assets/ebb59e54-9b99-48c2-9f82-2d38430a7e88" />
-  </div>
-</div>
+<table width="100%">
+  <tr>
+    <td valign="top" width="60%" rowspan="2" style="padding-right: 20px;">
+      <pre><code>#include &lt;stdio.h&gt;</code></pre>
+      <p>Think of <code>#include &lt;stdio.h&gt;</code> like  Captain America. It tells the compiler about all the basic functions required and assembles them before the code in main() is evaluated.</p>
+     <p>Similarly you can assemble(call) more basic functions from the built-in libraries.</p>
+     <p> For eg:<pre><code>
+#include &lt;stdio.h&lt;
+#include &lt;math.h&lt;
 
-<div style="margin-top: 20px;">
-  <img width="671" height="372" alt="b3qvn5" src="https://github.com/user-attachments/assets/e4f5bfb2-8d33-43f5-ba95-9014214b01eb" />
+int main() {
+    double number = 16;
+    double result = sqrt(number);
+    printf("Square root of %.2f is %.2f\n", number, result);
+    return 0;
+}
+</pre></code>
+Here we call the math.h library because we needed the sqrt() function</p>
+    </td>
+    <td align="right" valign="top" width="40%">
+      <img width="100%" alt="header" src="https://github.com/user-attachments/assets/ebb59e54-9b99-48c2-9f82-2d38430a7e88" />
+    </td>
+  </tr>
+  <tr>
+    <td align="right" valign="top" width="40%">
+      <img width="100%" height="auto" alt="b3qvn5" src="https://github.com/user-attachments/assets/f4d85787-c7aa-47a9-8cac-cfed062a6529" />
+    </td>
+  </tr>
+</table>
+
+
 </div>
 
