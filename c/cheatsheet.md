@@ -82,4 +82,7 @@ Here we call the math.h library because we needed the sqrt() function</p>
     </td>
   </tr>
 </table>
-<img width="100%" alt="header" src="https://github.com/user-attachments/assets/00ef04cb-3e5c-4b6d-be10-ca6885d60f9c" />
+<img
+  width="70%"
+  alt="Footer"
+  src="https://github.com/user-attachments/assets/00ef04cb-3e5c-4b6d-be10-ca6885d60f9c"/>
