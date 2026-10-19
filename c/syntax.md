@@ -1,6 +1,6 @@
 # C Programming – Basic Rules and Syntax
 
-## 1. Basic Rules in C
+##  Basic Rules in C
 
 | Rule | Example |
 |------|---------|
@@ -17,7 +17,7 @@
 
 ---
 
-## 2. Statements That Require a Semicolon
+##  Statements That Require a Semicolon
 
 ```c
 int a = 10;
@@ -30,3 +30,15 @@ printf("%d", sum);
 scanf("%d", &a);
 
 return 0;
+
+```
+## Statements That Do Not Require a Semicolon After the Header
+
+| Statement Type | Syntax | Example |
+|---|---|---|
+| If Statement | `if (condition) { ... }` | `if (a > b) { printf("A is bigger"); }` |
+| For Loop | `for (init; condition; increment) { ... }` | `for (int i = 0; i < 5; i++) { printf("%d", i); }` |
+| While Loop | `while (condition) { ... }` | `while (a < 10) { a++; }` |
+| Function Definition | `return_type name() { ... }` | `int main() { return 0; }` |
+
+**Important:** Do not add a semicolon immediately after an `if`, `for`, or `while` condition unless you intentionally want an empty statement.
