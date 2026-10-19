@@ -201,4 +201,5 @@ char character = 'a';
 ```
 </details>
 
-# Now that you have learnt syntax of C, Check out [this juicy cheatsheet](cheatsheet.md)
+# Now that you have learnt syntax of C
+# Check out [this juicy cheatsheet](cheatsheet.md)
