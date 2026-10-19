@@ -125,7 +125,10 @@ int main() {
 This repository will continue to grow as I learn new concepts, solve problems, and improve my programming skills.
 
 Happy Coding! 🍻
+---
+
 <br>
+
 <img
   width="70%"
   alt="Footer"
