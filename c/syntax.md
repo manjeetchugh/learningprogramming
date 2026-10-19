@@ -95,5 +95,108 @@ return 0;
 | No special characters | Cannot use `@`, `#`, `$`, `%`, etc. | `void myFunction();` | `void my$function();` `void my#func();` |
 | Lowercase for library functions | Standard C functions use lowercase | `printf();` `scanf();` `strlen();` | `Printf();` `SCANF();` |
 
+<details>
+  <summary>Restricted Keywords in C[Not very helpful tbh.Just skip it imo]</summary>
 
+# C Programming Keywords
+
+C has **32 reserved keywords** that cannot be used as variable names, function names, or identifiers. Here's a comprehensive breakdown organized by category.
+
+## Data Types
+
+| Keyword | Purpose |
+|---------|---------|
+| `int` | Integer data type |
+| `float` | Floating-point data type |
+| `double` | Double precision floating-point |
+| `char` | Character data type |
+| `void` | Absence of type / generic pointer |
+| `short` | Short integer modifier |
+| `long` | Long integer modifier |
+| `signed` | Signed integer (default) |
+| `unsigned` | Unsigned integer |
+
+## Storage Classes
+
+| Keyword | Purpose |
+|---------|---------|
+| `auto` | Automatic storage (default for local variables) |
+| `static` | Static storage; maintains value between calls |
+| `extern` | External linkage; variable declared elsewhere |
+| `register` | Request CPU register storage (rarely used) |
+
+## Type Modifiers & Qualifiers
+
+| Keyword | Purpose |
+|---------|---------|
+| `const` | Constant value; cannot be modified |
+| `volatile` | Value may change unexpectedly; avoid optimization |
+| `struct` | Structure (composite data type) |
+| `union` | Union (shared memory for multiple types) |
+| `enum` | Enumeration (named integer constants) |
+| `typedef` | Create alias for existing data type |
+
+## Control Flow & Conditionals
+
+| Keyword | Purpose |
+|---------|---------|
+| `if` | Conditional statement |
+| `else` | Alternative condition |
+| `switch` | Multi-way branching |
+| `case` | Label in switch statement |
+| `default` | Default case in switch |
+| `break` | Exit loop or switch |
+| `continue` | Skip to next iteration |
+| `return` | Return from function |
+| `goto` | Jump to labeled statement |
+
+## Loop Statements
+
+| Keyword | Purpose |
+|---------|---------|
+| `for` | Loop with initialization, condition, increment |
+| `while` | Loop while condition is true |
+| `do` | Do-while loop (executes at least once) |
+
+## Operators & Utility
+
+| Keyword | Purpose |
+|---------|---------|
+| `sizeof` | Operator to get size of data type/variable |
+
+## Quick Reference - All 32 Keywords
+
+| | | | | |
+|---|---|---|---|---|
+| `auto` | `break` | `case` | `char` | `const` |
+| `continue` | `default` | `do` | `double` | `else` |
+| `enum` | `extern` | `float` | `for` | `goto` |
+| `if` | `inline` | `int` | `long` | `register` |
+| `restrict` | `return` | `short` | `signed` | `sizeof` |
+| `static` | `struct` | `switch` | `typedef` | `union` |
+| `unsigned` | `void` | `volatile` | `while` | |
+
+## Important Notes
+
+- ✅ **Reserved**: These keywords cannot be used as identifiers (variable names, function names, etc.)
+- ✅ **Case-Sensitive**: Keywords are lowercase (e.g., `Int` or `INT` are valid identifiers, but `int` is not)
+- ✅ **No Override**: There is no way to use a keyword as a variable name—it will cause a compilation error
+- ✅ **Standard**: All 32 keywords are part of the C standard and remain unchanged across C89/C99/C11
+
+## Example - What NOT to Do
+
+```c
+// ❌ WRONG - Will cause compilation error
+int int = 5;           // 'int' is a keyword
+float float = 3.14;    // 'float' is a keyword
+char for = 'a';        // 'for' is a keyword
+
+// ✅ CORRECT - Valid identifiers
+int integer = 5;
+float value = 3.14;
+char character = 'a';
+
+
+</details>
+```
 # Now that you have learnt syntax of C, Check out [this juicy cheatsheet](cheatsheet.md)
