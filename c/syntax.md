@@ -43,4 +43,24 @@ return 0;
 
 **Important:** Do not add a semicolon immediately after an `if`, `for`, or `while` condition unless you intentionally want an empty statement.
 
+##  Mathematical, Comparison, and Logical Operators
+
+| Operator | Type | Meaning | Example |
+|---|---|---|---|
+| `+` | Mathematical | Addition | `sum = a + b;` |
+| `-` | Mathematical | Subtraction | `diff = a - b;` |
+| `*` | Mathematical | Multiplication | `product = a * b;` |
+| `/` | Mathematical | Division | `result = a / b;` |
+| `%` | Mathematical | Remainder | `rem = a % b;` |
+| `==` | Comparison | Equal to | `if (a == b)` |
+| `!=` | Comparison | Not equal to | `if (a != b)` |
+| `>` | Comparison | Greater than | `if (a > b)` |
+| `<` | Comparison | Less than | `if (a < b)` |
+| `>=` | Comparison | Greater than or equal to | `if (a >= b)` |
+| `<=` | Comparison | Less than or equal to | `if (a <= b)` |
+| `&&` | Logical | Logical AND | `if (age >= 18 && age <= 60)` |
+| `||` | Logical | Logical OR | `if (a > 5 \|\| b > 5)` |
+| `!` | Logical | Logical NOT | `if (!(a == b))` |
+
+
 # Now that you have learnt syntax of C, Check out [this juicy cheatsheet](cheatsheet.md)
