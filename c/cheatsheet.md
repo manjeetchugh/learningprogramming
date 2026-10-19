@@ -40,7 +40,7 @@ Hello World
   <tr>
     <td valign="top" width="60%" rowspan="2" style="padding-right: 20px;">
       <pre><code>#include &lt;stdio.h&gt;</code></pre>
-      <p>Think of <code>#include &lt;stdio.h&gt;</code> like  Captain America. It tells the compiler about all the basic functions required and assembles them before the code in main() is evaluated.</p>
+      <p>Think of <code>#include &lt;stdio.h&gt;</code> like  Captain America. It tells the compiler(Nick fury) about all the basic functions required and  the compiler in turn assembles them before the user input code in main() is evaluated.</p>
      <p>Similarly you can assemble(call) more basic functions from the built-in libraries.</p>
      <p> For eg:<pre><code>
 #include &lt;stdio.h&lt;
