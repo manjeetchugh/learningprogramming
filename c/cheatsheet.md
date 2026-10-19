@@ -46,7 +46,8 @@ Hello World
 #include &lt;stdio.h&lt;
 #include &lt;math.h&lt;
 
-int main() {
+int main() 
+{
     double number = 16;
     double result = sqrt(number);
     printf("Square root of %.2f is %.2f\n", number, result);
