@@ -42,3 +42,5 @@ return 0;
 | Function Definition | `return_type name() { ... }` | `int main() { return 0; }` |
 
 **Important:** Do not add a semicolon immediately after an `if`, `for`, or `while` condition unless you intentionally want an empty statement.
+
+# Now that you have learnt syntax of C, Check out [this juicy cheatsheet](cheatsheet.md)
