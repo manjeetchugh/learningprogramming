@@ -43,8 +43,8 @@ Hello World
       <p>Think of <code>#include &lt;stdio.h&gt;</code> like  Captain America. It tells the compiler(Nick fury) about all the basic functions required and  the compiler in turn assembles them before the user input code in main() is evaluated.</p>
      <p>Similarly you can assemble(call) more basic functions from the built-in libraries.</p>
      <p> For eg:<pre><code>
-#include &lt;stdio.h&lt;
-#include &lt;math.h&lt;
+#include &lt;stdio.h&gt;
+#include &lt;math.h&gt;
 
 int main() 
 {
@@ -68,3 +68,18 @@ Here we call the math.h library because we needed the sqrt() function</p>
 </table>
 
 ### Main
+
+
+
+
+<table width="100%">
+  <tr>
+    <td valign="top" width="60%" rowspan="2" style="padding-right: 20px;">
+      <p> <code>main()</code> is the compulsory function that has to be defined in which the code is run </p>
+  <tr>
+    <td align="right" valign="top" width="40%">
+      <img width="100%" height="auto" alt="b3qvn5" src="https://github.com/user-attachments/assets/11d58934-11e4-4c0d-b2ad-d8b66f102048" />
+    </td>
+  </tr>
+</table>
+<img width="100%" alt="header" src="https://github.com/user-attachments/assets/00ef04cb-3e5c-4b6d-be10-ca6885d60f9c" />
