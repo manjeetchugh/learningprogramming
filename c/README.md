@@ -11,8 +11,8 @@ This folder contains C programs created while learning and practicing the fundam
 - Programming practice
 - Code to understand C syntax and concepts
 - Hands-on learning exercises
-- [Basic Rules & Syntax]{syntax.md}
-- [A juicy cheatsheet]{cheatsheet.md}
+- [Basic Rules & Syntax](syntax.md)
+- [A juicy cheatsheet](cheatsheet.md)
 
 ## 🛠️ Requirements
 
@@ -129,6 +129,8 @@ For eg:```printf("Your age is %d",age);```
 - ```scanf()```scans for input value from the user (*Requires the use of pointer &)
   
 For eg:```scanf("%d",&age);```
+
+### Now that you have read the basic of C check out [Basic Rules & Syntax](syntax.md)
 
 ## 📈 Learning in Progress
 
