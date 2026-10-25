@@ -14,7 +14,7 @@ This folder contains C programs created while learning and practicing the fundam
 - [A juicy cheatsheet](cheatsheet.md)
 
 ## Index
-- [Introduction](https://github.com/manjeetchugh/learningprogramming/blob/master/path/to/README.md#L52)
+- [Introduction](https://github.com/manjeetchugh/learningprogramming/blob/main/c/README.md?plain=1#L52)
 - [Variables](variables.md)
 
 ## 🛠️ Requirements
