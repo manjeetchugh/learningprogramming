@@ -18,8 +18,8 @@ This folder contains C programs created while learning and practicing the fundam
 
 ## 🛠️ Requirements
 
-- A C compiler, such as GCC
-- A code editor, such as Visual Studio Code
+- A C compiler, such as [GCC](https://gcc.gnu.org/) or [Turbo C++](https://developerinsider.co/download-turbo-c-for-windows-7-8-8-1-and-windows-10-32-64-bit-full-screen/)
+- A code editor, such as [Visual Studio Code](https://code.visualstudio.com/download)
 
 ## Note
 -Header files in C are stored under the extension .h For eg:
