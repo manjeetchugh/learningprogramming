@@ -14,7 +14,7 @@ This folder contains C programs created while learning and practicing the fundam
 - [A juicy cheatsheet](cheatsheet.md)
 
 ## Index
-- [Introduction](#### Head(Header))
+- [Introduction](#headheader)
 - [Variables](variables.md)
 
 ## 🛠️ Requirements
