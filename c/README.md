@@ -8,7 +8,6 @@ This folder contains C programs created while learning and practicing the fundam
 ## 📚 What You'll Find
 
 - Basic C programs and examples
-- Programming practice
 - Code to understand C syntax and concepts
 - [Basic Rules & Syntax](syntax.md)
 - [A juicy cheatsheet](cheatsheet.md)
