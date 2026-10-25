@@ -68,18 +68,6 @@ return 0;
 | `<<` | Bitwise | Left Shift | `result = a << 2;` |
 | `>>` | Bitwise | Right Shift | `result = a >> 2;` |
 
-## Naming Convention for Variables
-| Rule | Description | Valid Examples | Invalid Examples |
-|---|---|---|---|
-| Start with letter or underscore | Must begin with `a-z`, `A-Z`, or `_` | `int age;` `int _count;` | `int 123var;` `int $money;` |
-| Contains letters, digits, underscore | After first character, use letters, digits (0-9), or underscores | `int var_name;` `int myVar1;` | `int var-name;` `int var@name;` |
-| Case-sensitive | `Age` and `age` are different variables | `int age;` `int Age;` | N/A |
-| No spaces allowed | Variable names cannot contain spaces | `int firstName;` | `int first name;` |
-| Cannot be C keywords | Cannot use reserved words like `int`, `if`, `for`, `while` | `int myInt;` `int counter;` | `int int;` `int for;` |
-| Use meaningful names | Choose names that describe the variable's purpose | `int studentAge;` `int totalScore;` | `int x;` `int a;` |
-| Use camelCase or snake_case | Follow consistent naming convention | `int firstName;` or `int first_name;` | `int firstname;` |
-| Avoid single letters (except loops) | Use descriptive names, single letters only in loops | `for (int i = 0; i < 10; i++)` | `int x;` (outside loops) |
-| No special characters | Cannot use `@`, `#`, `$`, `%`, etc. | `int myVar;` | `int my$var;` `int my#var;` |
 
  ## Naming Convention for Functions
 | Rule | Description | Valid Examples | Invalid Examples |
