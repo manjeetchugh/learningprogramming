@@ -18,6 +18,7 @@
 | `%p` | `void*` | Usually 4 or 8 | Pointer address |
 
 > **Note:** Sizes are typical, not universal. `%f` in `printf()` expects a `double`, while `%f` in `scanf()` expects a `float*`. A string's size depends on its contents and includes the null terminator.
+> Unsigned Variables can only store positive non-zero numbers, Whereas Signed Variables can store positive, negative and zero.
 
 <details>
 <summary>Other C Format Specifiers</summary>
