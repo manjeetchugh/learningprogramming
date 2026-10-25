@@ -511,7 +511,7 @@ For `scanf()`, use the correct pointer-based conversion specifier. For example, 
 <details>
     <summary>Some totally optional stuff</summary>
 
-    <details>
+<details>
 <summary><strong>Integer ranges</strong></summary>
 
 Integer ranges depend on the type's width and representation. For example, a 32-bit signed integer commonly has a range from `-2,147,483,648` to `2,147,483,647`.
