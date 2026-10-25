@@ -453,6 +453,61 @@ Population: 9000000000
 
 > **Important:** The exact sizes and ranges of modified types depend on the implementation. Unsigned integers cannot represent negative values, and their arithmetic follows modulo rules.
 
+# Type Conversion in C
+
+Type conversion is the process of converting a value from one data type to another. C supports two types of type conversion.
+
+## 1. Implicit Type Conversion
+
+Performed automatically by the compiler.
+
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 5;
+    float b = 2.5;
+
+    float result = a + b;
+
+    printf("%.2f", result);
+    return 0;
+}
+```
+
+**Output**
+```text
+7.50
+```
+
+Here, `a` is automatically converted from `int` to `float` during the addition.
+
+## 2. Explicit Type Conversion (Type Casting)
+
+Performed manually by the programmer using the `(type)` cast operator.
+
+```c
+#include <stdio.h>
+
+int main() {
+    float a = 7.9;
+    int b = (int)a;
+
+    printf("%d", b);
+    return 0;
+}
+```
+
+**Output**
+```text
+7
+```
+
+Here, `(int)a` converts the `float` value to an integer, truncating the decimal part.
+
+**Note:** Type conversion can cause data loss, precision loss, or overflow, depending on the types involved.
+
+
 ---
 
 # Quick Reference Table
