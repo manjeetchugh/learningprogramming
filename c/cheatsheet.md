@@ -13,7 +13,7 @@
 > **Note:** Sizes are typical and depend on the system and compiler. In `printf()`, `%f` accepts a `double`; in `scanf()`, `%f` expects a `float*`, and `%lf` expects a `double*`.
 
 <details>
-<summary>Other C Format Specifiers — Explanation and Examples</summary>
+<summary>Other C Format Specifiers — Explanation and Examples[OPTIONAL]</summary>
 
 ### 1. Integer Specifiers
 
