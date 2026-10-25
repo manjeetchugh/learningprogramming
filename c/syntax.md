@@ -192,4 +192,3 @@ char character = 'a';
 ## Now that you have learnt syntax of C,Check out
  - [variables](variables.md)
  - [a juicy cheatsheet](cheatsheet.md)
- - 
