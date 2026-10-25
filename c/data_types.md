@@ -2,7 +2,6 @@
 
 A **data type** in C specifies the kind of value a variable can store, its range and precision, and the operations that can be performed on it.
 
-
 Data types help the compiler determine how to represent and interpret data in memory.
 
 ## Table of Contents
@@ -402,4 +401,303 @@ int main(void)
     printf("Integer: %d\n", data.i);
 
     data.f = 5.5f;
-    printf("Float: %.1f\n", data
+    printf("Float: %.1f\n", data.f);
+
+    return 0;
+}
+```
+
+**Output**
+
+```text
+Integer: 10
+Float: 5.5
+```
+
+**Explanation**
+
+- `union Data` defines a union with an integer and a floating-point member.
+- The members overlap in memory.
+- Assigning a new value to `data.f` replaces the previously stored representation in the shared storage.
+- After writing `data.f`, reading `data.i` is not a portable way to retrieve the previous integer value.
+
+A union is useful when different representations need to occupy the same storage, provided the program handles the active representation correctly.
+
+## Enumeration (`enum`)
+
+An enumeration defines named integer constants, making code easier to read and maintain.
+
+```c
+#include <stdio.h>
+
+enum Day
+{
+    MON, TUE, WED, THU, FRI, SAT, SUN
+};
+
+int main(void)
+{
+    enum Day today = WED;
+
+    printf("Day value: %d\n", today);
+
+    return 0;
+}
+```
+
+**Output**
+
+```text
+Day value: 2
+```
+
+**Explanation**
+
+- `MON` has the value `0` by default.
+- `TUE` has the value `1`.
+- `WED` has the value `2`.
+- Each subsequent enumerator increases by one unless explicitly assigned a different value.
+
+You can also assign values explicitly:
+
+```c
+enum Status
+{
+    FAILURE = 0,
+    SUCCESS = 1,
+    PENDING = 5
+};
+```
+
+## Type Alias (`typedef`)
+
+The `typedef` keyword creates an alternative name for an existing type.
+
+```c
+#include <stdio.h>
+
+typedef unsigned int uint;
+
+int main(void)
+{
+    uint count = 100;
+
+    printf("Count: %u\n", count);
+
+    return 0;
+}
+```
+
+**Output**
+
+```text
+Count: 100
+```
+
+**Explanation**
+
+- `typedef unsigned int uint;` defines `uint` as an alias for `unsigned int`.
+- `uint count = 100;` declares a variable using that alias.
+- `typedef` improves readability but does not create a distinct type.
+
+---
+
+# Size of Data Types
+
+The size of a data type depends on the C implementation and platform. Use the `sizeof` operator to determine the size of a type or object at runtime or compile time.
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    printf("Size of char: %zu byte(s)\n", sizeof(char));
+    printf("Size of int: %zu byte(s)\n", sizeof(int));
+    printf("Size of float: %zu byte(s)\n", sizeof(float));
+    printf("Size of double: %zu byte(s)\n", sizeof(double));
+
+    return 0;
+}
+```
+
+**Typical output on many modern systems**
+
+```text
+Size of char: 1 byte(s)
+Size of int: 4 byte(s)
+Size of float: 4 byte(s)
+Size of double: 8 byte(s)
+```
+
+**Explanation**
+
+- `sizeof(type)` returns the size of a type in bytes.
+- `sizeof(variable)` returns the size of the variable's type in bytes.
+- The result type is `size_t`, so `%zu` is the appropriate conversion specifier for `printf()`.
+- `sizeof(char)` is always `1`; the size of an ordinary `int`, `float`, or `double` is implementation-dependent.
+
+For a more detailed inspection, you can also examine the sizes of modified types:
+
+```c
+printf("Size of short int: %zu\n", sizeof(short int));
+printf("Size of long int: %zu\n", sizeof(long int));
+printf("Size of long long int: %zu\n", sizeof(long long int));
+printf("Size of long double: %zu\n", sizeof(long double));
+```
+
+---
+
+# Type Modifiers
+
+Type modifiers change the range or representation of certain integer and floating-point types.
+
+The main modifiers are:
+
+- `signed`
+- `unsigned`
+- `short`
+- `long`
+
+| Modified type | Description | Example |
+| --- | --- | --- |
+| `short int` | Short integer type | `short int x = 10;` |
+| `long int` | Long integer type | `long int population = 100000L;` |
+| `long long int` | Integer type with at least as much range as `long int` | `long long int n = 9000000000LL;` |
+| `signed int` | Integer type that can represent negative and positive values | `signed int temperature = -10;` |
+| `unsigned int` | Integer type that cannot represent negative values | `unsigned int count = 100U;` |
+| `long double` | Floating-point type with at least as much precision as `double` | `long double value = 3.14159L;` |
+
+**Example**
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    signed int temperature = -10;
+    unsigned int count = 100;
+    long long int population = 9000000000LL;
+
+    printf("Temperature: %d\n", temperature);
+    printf("Count: %u\n", count);
+    printf("Population: %lld\n", population);
+
+    return 0;
+}
+```
+
+**Output**
+
+```text
+Temperature: -10
+Count: 100
+Population: 9000000000
+```
+
+> **Important:** The exact sizes and ranges of modified types depend on the implementation. Unsigned integers cannot represent negative values, and their arithmetic follows modulo rules.
+
+---
+
+# Quick Reference Table
+
+| Data type | Purpose | Common size | `printf()` specifier |
+| --- | --- | --- | --- |
+| `char` | Character or small integer | 1 byte | `%c` |
+| `int` | Whole numbers | 4 bytes | `%d` |
+| `float` | Floating-point numbers | 4 bytes | `%f` |
+| `double` | Higher-precision floating-point numbers | 8 bytes | `%f` |
+| `short int` | Short integer | Often 2 bytes | `%hd` |
+| `long int` | Long integer | Often 4 or 8 bytes | `%ld` |
+| `long long int` | Extended-range integer | Often 8 bytes | `%lld` |
+| `unsigned int` | Nonnegative integer | Often 4 bytes | `%u` |
+| `long double` | Extended-precision floating point | Implementation-dependent | `%Lf` |
+| `void` | No value | No object size | Not applicable |
+
+*The sizes shown are common examples, not universal guarantees.*
+
+---
+
+## Additional Notes
+
+<details>
+<summary><strong>Integer ranges</strong></summary>
+
+Integer ranges depend on the type's width and representation. For example, a 32-bit signed integer commonly has a range from `-2,147,483,648` to `2,147,483,647`.
+
+Use `<limits.h>` to inspect integer limits:
+
+```c
+#include <stdio.h>
+#include <limits.h>
+
+int main(void)
+{
+    printf("INT_MIN: %d\n", INT_MIN);
+    printf("INT_MAX: %d\n", INT_MAX);
+    printf("UINT_MAX: %u\n", UINT_MAX);
+
+    return 0;
+}
+```
+
+</details>
+
+<details>
+<summary><strong>Floating-point limits and precision</strong></summary>
+
+Floating-point types have finite precision, so some decimal values cannot be represented exactly.
+
+Use `<float.h>` to inspect implementation-specific limits:
+
+```c
+#include <stdio.h>
+#include <float.h>
+
+int main(void)
+{
+    printf("FLT_DIG: %d\n", FLT_DIG);
+    printf("DBL_DIG: %d\n", DBL_DIG);
+    printf("FLT_MAX: %g\n", FLT_MAX);
+    printf("DBL_MAX: %g\n", DBL_MAX);
+
+    return 0;
+}
+```
+
+`FLT_DIG` and `DBL_DIG` indicate decimal precision characteristics, while `FLT_MAX` and `DBL_MAX` provide the maximum finite values for their respective types.
+
+</details>
+
+<details>
+<summary><strong>Common format specifiers</strong></summary>
+
+| Specifier | Used with `printf()` |
+| --- | --- |
+| `%d` | `int` |
+| `%u` | `unsigned int` |
+| `%c` | Character |
+| `%s` | Null-terminated character string |
+| `%f` | `double` |
+| `%e` | `double` in scientific notation |
+| `%g` | `double` using a suitable decimal or scientific representation |
+| `%ld` | `long int` |
+| `%lld` | `long long int` |
+| `%Lf` | `long double` |
+| `%p` | Pointer address |
+| `%zu` | `size_t` |
+
+For `scanf()`, use the correct pointer-based conversion specifier. For example, `%f` reads a `float *`, whereas `%lf` reads a `double *`.
+
+</details>
+
+---
+
+## Key Takeaways
+
+- Data types define how C programs represent and manipulate values.
+- Primitive types include `char`, `int`, `float`, `double`, and `void`.
+- Arrays, pointers, and function types are derived from other types.
+- Structures, unions, and enumerations let programmers define custom types.
+- `typedef` provides an alias for an existing type.
+- Use `sizeof()` to inspect storage size and the appropriate headers to inspect type limits.
+- Always use the correct format specifier for the type being printed or read.
