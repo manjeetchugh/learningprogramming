@@ -162,6 +162,7 @@ printf("Address of x: %p\n", (void *)&x);
 The actual address varies between program executions and systems.
 <details>
   <summary>A bit confusing part(Skip it for clarity)</summary>
+    
   ## Function Types
 
 A function has a return type, a name, and a parameter list. Function types describe the return and parameter types of functions.
