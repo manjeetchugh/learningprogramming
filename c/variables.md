@@ -54,6 +54,7 @@ int x, y, z;
 > [!TIP]
 > Use meaningful names such as `student_age`, `total_marks`, and `temperature` to make your code easier to understand. Avoid identifiers beginning with underscores in many contexts, especially at file scope, because some such names are reserved to the implementation.
 
+For those who prefer tables over bullet points
 <details>
     <summary>[TABLE]Naming Convention for Variables</summary>
 
