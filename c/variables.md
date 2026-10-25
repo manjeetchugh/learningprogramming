@@ -140,11 +140,32 @@ Grade: A
 
 **Important:** In `printf`, a `float` argument is promoted to `double`, so `%f` is used for both `float` and `double` values. For `scanf`, the corresponding specifiers differ: use `%f` for `float *` and `%lf` for `double *`.
 
-## 5. Key Takeaways
+## Scope of Variables in C
 
-- A variable stores a value under a name.
-- Every variable has a data type.
-- Declare variables before using them.
-- Initialize local variables before reading their values.
-- Follow C naming rules and use descriptive identifiers.
-- Use appropriate format specifiers when displaying values.
+**Scope** defines the region of a program where a variable or identifier can be accessed. C uses *lexical (static) scoping*, meaning scope is determined by where an identifier is declared in the source code.
+
+### Types of Scope
+
+- **Global Scope:** Variables declared outside all functions and blocks. They can be accessed throughout the same source file after their declaration. Use `extern` to refer to a global variable defined in another source file.
+- **Local (Block) Scope:** Variables declared inside a function or `{ }` block. They can be accessed within that block and its nested blocks.
+- **Nested Scope:** An inner block can access variables from an outer block. If it declares a variable with the same name, the inner variable *shadows* the outer one.
+
+**Example:**
+
+```c
+int global = 10;  // Global scope
+
+int main(void) {
+    int local = 20;  // Local scope
+
+    {
+        int local = 30;  // Shadows outer local
+        printf("%d\n", local);  // 30
+    }
+
+    printf("%d\n", local);  // 20
+    return 0;
+}
+```
+
+**Note:** Global variables have file scope, while local variables have block scope. Use `static` with a file-scope variable to restrict its linkage to the current source file.
