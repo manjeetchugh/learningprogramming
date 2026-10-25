@@ -576,3 +576,5 @@ int main(void)
 - `typedef` provides an alias for an existing type.
 - Use `sizeof()` to inspect storage size and the appropriate headers to inspect type limits.
 - Always use the correct format specifier for the type being printed or read.
+
+# Now that you have learnt Data Types check out [variables](variables.md)
