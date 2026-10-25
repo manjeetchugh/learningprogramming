@@ -486,8 +486,32 @@ Population: 9000000000
 ---
 
 ## Additional Notes
+<details>
+<summary><strong>Common format specifiers</strong></summary>
+
+| Specifier | Used with `printf()` |
+| --- | --- |
+| `%d` | `int` |
+| `%u` | `unsigned int` |
+| `%c` | Character |
+| `%s` | Null-terminated character string |
+| `%f` | `double` |
+| `%e` | `double` in scientific notation |
+| `%g` | `double` using a suitable decimal or scientific representation |
+| `%ld` | `long int` |
+| `%lld` | `long long int` |
+| `%Lf` | `long double` |
+| `%p` | Pointer address |
+| `%zu` | `size_t` |
+
+For `scanf()`, use the correct pointer-based conversion specifier. For example, `%f` reads a `float *`, whereas `%lf` reads a `double *`.
+
+</details>
 
 <details>
+    <summary>Some totally optional stuff</summary>
+
+    <details>
 <summary><strong>Integer ranges</strong></summary>
 
 Integer ranges depend on the type's width and representation. For example, a 32-bit signed integer commonly has a range from `-2,147,483,648` to `2,147,483,647`.
@@ -535,28 +559,11 @@ int main(void)
 `FLT_DIG` and `DBL_DIG` indicate decimal precision characteristics, while `FLT_MAX` and `DBL_MAX` provide the maximum finite values for their respective types.
 
 </details>
-
-<details>
-<summary><strong>Common format specifiers</strong></summary>
-
-| Specifier | Used with `printf()` |
-| --- | --- |
-| `%d` | `int` |
-| `%u` | `unsigned int` |
-| `%c` | Character |
-| `%s` | Null-terminated character string |
-| `%f` | `double` |
-| `%e` | `double` in scientific notation |
-| `%g` | `double` using a suitable decimal or scientific representation |
-| `%ld` | `long int` |
-| `%lld` | `long long int` |
-| `%Lf` | `long double` |
-| `%p` | Pointer address |
-| `%zu` | `size_t` |
-
-For `scanf()`, use the correct pointer-based conversion specifier. For example, `%f` reads a `float *`, whereas `%lf` reads a `double *`.
-
+    
 </details>
+
+
+
 
 ---
 
