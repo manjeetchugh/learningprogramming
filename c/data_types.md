@@ -19,17 +19,6 @@ C data types are commonly organized into three categories:
 > **Note:** `typedef` creates an alias for an existing type; it does not create an entirely new distinct type. C also has other types, including `_Bool` and, in modern C, `_Complex`.
 
 ---
-# Data Types in C
-
-A **data type** specifies the kind of value a variable can store, its memory requirements, and the operations that can be performed on it.
-
-## Classification of Data Types
-
-| Category | Types | Description |
-|---|---|---|
-| Primitive | `char`, `int`, `float`, `double`, `void` | Basic built-in types |
-| Derived | Arrays, pointers, function types | Types formed from other types |
-| User-defined | `struct`, `union`, `enum`, `typedef` | Custom types and type aliases |
 
 ## 1. Primitive Data Types
 
