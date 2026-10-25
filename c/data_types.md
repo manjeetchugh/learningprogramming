@@ -4,28 +4,6 @@ A **data type** in C specifies the kind of value a variable can store, its range
 
 Data types help the compiler determine how to represent and interpret data in memory.
 
-## Table of Contents
-
-- [Classification of Data Types](#classification-of-data-types)
-- [1. Primitive Data Types](#1-primitive-data-types)
-  - [Integer (`int`)](#integer-int)
-  - [Character (`char`)](#character-char)
-  - [Float (`float`)](#float-float)
-  - [Double (`double`)](#double-double)
-  - [Void (`void`)](#void-void)
-- [2. Derived Data Types](#2-derived-data-types)
-  - [Arrays](#arrays)
-  - [Pointers](#pointers)
-  - [Function Types](#function-types)
-- [3. User-Defined Data Types](#3-user-defined-data-types)
-  - [Structure (`struct`)](#structure-struct)
-  - [Union (`union`)](#union-union)
-  - [Enumeration (`enum`)](#enumeration-enum)
-  - [Type Alias (`typedef`)](#type-alias-typedef)
-- [Size of Data Types](#size-of-data-types)
-- [Type Modifiers](#type-modifiers)
-- [Quick Reference Table](#quick-reference-table)
-
 ---
 
 ## Classification of Data Types
@@ -182,8 +160,9 @@ printf("Address of x: %p\n", (void *)&x);
 ```
 
 The actual address varies between program executions and systems.
-
-## Function Types
+<details>
+  <summary>A bit confusing part(Skip it for clarity)</summary>
+  ## Function Types
 
 A function has a return type, a name, and a parameter list. Function types describe the return and parameter types of functions.
 
@@ -216,6 +195,8 @@ Sum: 30
 - The function returns `30`.
 
 > **Note:** Functions are not objects, and C does not allow arrays of functions. However, pointers to functions can be declared and used.
+
+</details>
 
 ---
 
