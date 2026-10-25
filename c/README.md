@@ -13,6 +13,10 @@ This folder contains C programs created while learning and practicing the fundam
 - [Basic Rules & Syntax](syntax.md)
 - [A juicy cheatsheet](cheatsheet.md)
 
+## Index
+-[Introduction](README.md#L51)
+-[Variables](variables.md)
+
 ## 🛠️ Requirements
 
 - A C compiler, such as GCC
