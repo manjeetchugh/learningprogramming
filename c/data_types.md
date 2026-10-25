@@ -203,7 +203,10 @@ Sum: 30
 
 # 3. User-Defined Data Types
 
-User-defined types let programmers group related information, represent named constants, or create convenient aliases.
+<details>
+    <summary>Advanced Section(Study it after you have a hold of coding in c)</summary>
+
+    User-defined types let programmers group related information, represent named constants, or create convenient aliases.
 
 ## Structure (`struct`)
 
@@ -365,6 +368,7 @@ Count: 100
 
 ---
 
+</details>
 # Size of Data Types
 
 The size of a data type depends on the C implementation and platform. Use the `sizeof` operator to determine the size of a type or object at runtime or compile time.
