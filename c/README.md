@@ -9,10 +9,10 @@ This folder contains C programs created while learning and practicing the fundam
 <details>
 <summary><b>1. Introduction to C</b></summary>
 
-- [Introduction](https://github.com/manjeetchugh/learningprogramming/tree/main/c)
-- [History of C](https://github.com/manjeetchugh/learningprogramming/tree/main/c)
-- [Structure of a C Program](https://github.com/manjeetchugh/learningprogramming/tree/main/c)
-- [The Main Function](https://github.com/manjeetchugh/learningprogramming/tree/main/c)
+- [Introduction & History of C](#history-of-c-and-yadayada)
+- [Structure of a C Program](#cutting-the-crap)
+- [Head of C program](#headheader)
+- [The Main Function](#main)
 
 </details>
 
