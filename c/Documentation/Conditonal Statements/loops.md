@@ -10,6 +10,7 @@
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/af708ba5-d1ee-4a49-adc1-bcc988db17a1" />
 
 
+---
 
 | Loop Type | Control Type | Condition Check | Executes If False |
 |-----------|--------------|-----------------|-------------------|
@@ -53,7 +54,8 @@ An **entry-controlled loop** that checks the condition before executing the body
 
     1 2 3 4 5
 
-**Flowchart**
+### Flowchart
+
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/d5d93aee-f0b2-4f26-a8f1-9aeb08122584" />
 
 ---
@@ -87,7 +89,7 @@ An **entry-controlled loop** that checks the condition before each iteration. In
 
     1 2 3 4 5 6
 
-**Flowchart**
+### Flowchart
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/46f5bb6e-b600-47d6-a921-05977aaabbfe" />
 
 ---
@@ -120,7 +122,7 @@ An **exit-controlled loop** that checks the condition **after** executing the bo
 **Output:**
 
     0 1 2 3 4 5 6 7 8 9 10
-**Flowchart**
+### Flowchart
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/09eae557-5a28-45b8-bb49-24677234d7b7" />
 
 ---
