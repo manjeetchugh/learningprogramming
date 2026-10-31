@@ -16,7 +16,7 @@ This folder contains C programs created while learning and practicing the fundam
 - [Introduction](#headheader)
 - [Data Types](Documentation/Basics/data_types.md)
 - [Operators](Documentation/Basics/operators.md)
-- [Variables](Documentation/Variables/variables.md)
+- [Variables](Documentation/Variables/variables.md) 
 - [Functions](Documentation/Functions/functions.md)
 
 ## 🛠️ Requirements
