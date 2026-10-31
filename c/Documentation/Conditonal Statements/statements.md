@@ -16,6 +16,8 @@
 | **Ternary operator (`?:`)** | Shorthand `if-else` for expressions | Quick conditional expressions |
 
 ---
+<img width="862" height="585" alt="image" src="https://github.com/user-attachments/assets/6f0fcd0c-6c3f-4be5-9fbc-1271f0bfc397" />
+
 
 ## 1. if Statement
 
