@@ -173,4 +173,4 @@ int main(void) {
 
 ---
 
-## Now that you have learn about variables, check out [Functions](functions.md)
+## Now that you have learn about variables, check out [Functions](Documentation/Functions/functions.md)
