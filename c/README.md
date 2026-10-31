@@ -1,6 +1,7 @@
 # C Programming 
 
-Welcome to the **C Programming** section of my learning repository! 👋
+Welcome to the **C Programming** section of my learning repository!
+
 This folder contains C programs created while learning and practicing the fundamentals of the C programming language.
 
 ## 📚 Table of Contents
