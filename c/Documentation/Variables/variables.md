@@ -172,5 +172,10 @@ int main(void) {
 
 
 ---
+<details>
+ <summary>[OPTIONAL] Constants</summary>
+    
+ [Constants](Documentation/Variables/constants.md)
+    </details>
 
 ## Now that you have learn about variables, check out [Functions](Documentation/Functions/functions.md)
