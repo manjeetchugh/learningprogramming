@@ -5,21 +5,6 @@ Welcome to the **C Programming** section of my learning repository! 👋
 
 This folder contains C programs created while learning and practicing the fundamentals of the C programming language.
 
-## 📚 What You'll Find
-
-- Basic C programs and examples
-- Code to understand C syntax and concepts
-- [Basic Rules & Syntax](Documentation/Basics/syntax.md)
-- [A juicy cheatsheet](Documentation/cheatsheet.md)
-
-## Index
-- [Introduction](#headheader)
-- [Data Types](Documentation/Basics/data_types.md)
-- [Operators](Documentation/Basics/operators.md)
-- [Variables](Documentation/Variables/variables.md)
-- [Conditional Statements](Documentation/Conditonal%20Statements/statements.md)
-- [Loops](Documentation/Conditonal%20Statements/loops.md)
-- [Functions](Documentation/Functions/functions.md)
 
 ## 🛠️ Requirements
 
