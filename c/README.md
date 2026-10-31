@@ -1,9 +1,107 @@
 # C Programming 
 
 Welcome to the **C Programming** section of my learning repository! 👋
-> I have, as a matter of habit, been accustomed to compiling such notes, cheatsheets, and codes solely for my own use, having little inclination to share them without good reason. Should I, however, choose to make these materials available to you, you may rest assured that the act was **by no means arbitrary.** Either I consider you a person of some consequence, or you have demonstrated genuine curiosity and a particular aptitude for learning that merits my attention. I do not part with the fruits of my own efforts indiscriminately, nor do I make a habit of imparting them to persons of no merit; I trust you shall appreciate the distinction. 
+ 
 
 This folder contains C programs created while learning and practicing the fundamentals of the C programming language.
+
+## 📚 Table of Contents
+
+<details>
+<summary><b>1. Introduction to C</b></summary>
+
+- [Introduction](https://github.com/manjeetchugh/learningprogramming/tree/main/c)
+- [History of C](https://github.com/manjeetchugh/learningprogramming/tree/main/c)
+- [Structure of a C Program](https://github.com/manjeetchugh/learningprogramming/tree/main/c)
+- [The Main Function](https://github.com/manjeetchugh/learningprogramming/tree/main/c)
+
+</details>
+
+<details>
+<summary><b>2. C Programming Fundamentals</b></summary>
+
+<details>
+<summary><b>2.1 Basic Rules and Syntax</b></summary>
+
+- [Basic Rules and Syntax](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/syntax.md)
+
+</details>
+
+<details>
+<summary><b>2.2 Data Types</b></summary>
+
+- [Data Types](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/data_types.md)
+
+</details>
+
+<details>
+<summary><b>2.3 Variables</b></summary>
+
+- [Variables](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Variables/variables.md)
+
+</details>
+
+<details>
+<summary><b>2.4 Operators</b></summary>
+
+- [Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md)
+- [Arithmetic Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md)
+- [Relational Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md)
+- [Logical Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md)
+- [Assignment Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md)
+- [Bitwise Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md)
+
+</details>
+
+</details>
+
+<details>
+<summary><b>3. Control Flow Statements</b></summary>
+
+<details>
+<summary><b>3.1 Conditional Statements</b></summary>
+
+- [Conditional Statements](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md)
+- [If Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md)
+- [If-Else Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md)
+- [Nested If-Else Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md)
+- [Switch Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md)
+
+</details>
+
+<details>
+<summary><b>3.2 Loops</b></summary>
+
+- [Loops](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/loops.md)
+- [For Loop](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/loops.md)
+- [While Loop](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/loops.md)
+- [Do-While Loop](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/loops.md)
+- [Break Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/loops.md)
+- [Continue Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/loops.md)
+
+</details>
+
+</details>
+
+<details>
+<summary><b>4. Functions</b></summary>
+
+- [Functions in C](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Functions/functions.md)
+- [Function Declaration](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Functions/functions.md)
+- [Function Definition](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Functions/functions.md)
+- [Function Calling](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Functions/functions.md)
+- [Function Arguments](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Functions/functions.md)
+- [Return Values](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Functions/functions.md)
+- [Recursion](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Functions/functions.md)
+
+</details>
+
+<details>
+<summary><b>5. Quick Reference</b></summary>
+
+- [C Programming Cheatsheet](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/cheatsheet.md)
+
+</details>
 
 
 ## 🛠️ Requirements
