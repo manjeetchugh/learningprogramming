@@ -52,14 +52,8 @@ This folder contains C programs created while learning and practicing the fundam
 </details>
 
 ## Cutting the crap 
-```
- #include <stdio.h> 
-int main() 
-{
-    printf("Hello World");
-    return 0;  
-}
-```
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/eeafa92a-b66d-4f81-b1cb-95eaa4942a08" />
+
 Soooo! What's this code
 
 Lemme explain that easily
