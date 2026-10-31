@@ -169,3 +169,8 @@ int main(void) {
 ```
 
 **Note:** Global variables have file scope, while local variables have block scope. Use `static` with a file-scope variable to restrict its linkage to the current source file.
+
+
+---
+
+## Now that you have learn about variables, check out [Functions](functions.md)
