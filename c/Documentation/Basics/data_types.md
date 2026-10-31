@@ -3,6 +3,8 @@
 A **data type** in C specifies the kind of value a variable can store, its range and precision, and the operations that can be performed on it.
 
 Data types help the compiler determine how to represent and interpret data in memory.
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/a0efd1b0-18fc-4d8e-879f-6eb7a975d82a" />
+
 
 ---
 
