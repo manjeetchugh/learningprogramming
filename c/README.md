@@ -9,12 +9,13 @@ This folder contains C programs created while learning and practicing the fundam
 
 - Basic C programs and examples
 - Code to understand C syntax and concepts
-- [Basic Rules & Syntax](syntax.md)
-- [A juicy cheatsheet](cheatsheet.md)
+- [Basic Rules & Syntax](Documentation/Basics/syntax.md)
+- [A juicy cheatsheet](Documentation/cheatsheet.md)
 
 ## Index
 - [Introduction](#headheader)
-- [Data Types](Documentation/data_types.md)
+- [Data Types](Documentation/Basics/data_types.md)
+- [Operators](Documentation/Basics/operators.md)
 - [Variables](Documentation/Variables/variables.md)
 - [Functions](Documentation/Functions/functions.md)
 
@@ -134,7 +135,7 @@ For eg:```printf("Your age is %d",age);```
   
 For eg:```scanf("%d",&age);```
 
-### Now that you have read the basic of C check out [Basic Rules & Syntax](syntax.md)
+### Now that you have read the basic of C check out [Basic Rules & Syntax](Documentation/Basics/syntax.md)
 
 ## 📈 Learning in Progress
 
