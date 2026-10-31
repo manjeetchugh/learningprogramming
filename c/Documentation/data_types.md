@@ -621,4 +621,4 @@ int main(void)
 - Use `sizeof()` to inspect storage size and the appropriate headers to inspect type limits.
 - Always use the correct format specifier for the type being printed or read.
 
-# Now that you have learnt Data Types check out [variables](variables.md)
+# Now that you have learnt Data Types check out [variables](Documentation/Variables/variables.md)
