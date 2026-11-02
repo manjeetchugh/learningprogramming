@@ -91,7 +91,7 @@ This folder contains C programs created while learning and practicing the fundam
 - [Function Calling](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Functions/functions.md)
 - [Function Arguments](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Functions/functions.md)
 - [Return Values](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Functions/functions.md)
-- [Recursion](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Functions/functions.md)
+- [Recursion](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Functions/recursion.md)
 
 </details>
 
