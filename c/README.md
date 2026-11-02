@@ -60,9 +60,9 @@ This folder contains C programs created while learning and practicing the fundam
 <details>
 <summary><b>3.1 Conditional Statements</b></summary>
 
-- [Conditional Statements](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md#conditionalstatementtypes)
+- [Conditional Statements](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md#conditional-statement-types)
 - [If Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md#1-if-statement)
-- [If-Else Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md)
+- [If-Else Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md#2-if-else-statement)
 - [Nested If-Else Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md)
 - [Switch Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md)
 
