@@ -44,11 +44,11 @@ This folder contains C programs created while learning and practicing the fundam
 <summary><b>2.4 Operators</b></summary>
 
 - [Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md)
-- [Arithmetic Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md)
-- [Relational Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md)
-- [Logical Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md)
-- [Assignment Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md)
-- [Bitwise Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md)
+- [Arithmetic Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md#arithmeticoperators)
+- [Relational Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md#relationaloperators)
+- [Logical Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md#logicaloperators)
+- [Assignment Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md#assignmentoperators)
+- [Bitwise Operators](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Basics/operators.md#bitwiseoperators)
 
 </details>
 
@@ -60,8 +60,8 @@ This folder contains C programs created while learning and practicing the fundam
 <details>
 <summary><b>3.1 Conditional Statements</b></summary>
 
-- [Conditional Statements](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md)
-- [If Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md)
+- [Conditional Statements](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md#conditionalstatementtypes)
+- [If Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md#1-if-statement)
 - [If-Else Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md)
 - [Nested If-Else Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md)
 - [Switch Statement](https://github.com/manjeetchugh/learningprogramming/blob/main/c/Documentation/Conditonal%20Statements/statements.md)
